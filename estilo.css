@@ -1,0 +1,184 @@
+#cabecalho{
+	background-color:deepskyblue;
+	padding: 0px;
+	margin: 0px;
+
+}
+#cabecalho ul{
+
+	padding: 2px; /*pading é usado para preenchimento*/ 
+	margin: 2px; /* margin é usado altura da margem ex o cabecalho mais pro meio da tela */
+	text-align: center; /* text align significa alinhar texto */
+
+}
+#cabecalho ul li{
+	display: inline; /* display sig exibir inline embutido*/
+
+
+}
+#cabecalho ul li a{
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	background-color:deepskyblue;
+	border-bottom: none;
+	text-decoration: none;
+	color: white;
+}
+#cabecalho ul li a:hover{
+	background-color:deepskyblue;
+	color: gray;
+	border-bottom:2px solid gray;  /* border bottom faz a barrinha embaixo ex olhar o cabecalho */
+	
+}
+.imagemlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+#nome{
+	text-align:center;
+	font-family:Trattatello, fantasy;
+	font-size: 33px;
+	font-variant: small-caps;
+	font-weight: 200;
+	font-stretch: extra-condensed;
+}
+.logo{
+	display:block;
+	margin-left: auto;
+	 margin-right: auto;
+	 width: auto;
+	 padding: 10px;
+
+}
+#frase{
+	text-align: center;
+}
+.preco {
+  color: grey;
+  font-size: 20px;
+  font-family: Trattatello, fantasy;
+
+}
+
+.card {
+
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2); /* box shadow sig caixa de sombra */
+  max-width: 300px;
+  margin:1%;
+  text-align: center;
+  font-family: arial;
+  float:left;
+
+
+}
+
+.card button {
+  border:2px;
+  outline: 0;
+  padding: 15px;
+  margin:auto;
+  color: white;
+  background-color:deepskyblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+ 
+
+
+}
+.card button a{
+	text-decoration:none;
+	color: white;
+}
+
+.card button:hover {
+	color: gray;
+	border-bottom:2px solid gray;
+	margin:auto;
+
+
+}
+p{
+	font-family: Trattatello, fantasy;
+	font-size: 18px; 
+	font:center;
+	text-align: center;
+	text-align: justify;
+}
+.contatotagp{
+	font-family: Trattatello, fantasy;
+	font-size: 18px; 
+	font:center;
+	text-align: center;
+
+}
+h2{
+	font-family: Trattatello, fantasy;
+	font-size: 20px; 
+	font:center;
+	text-align: center;
+	
+}
+h3{
+	font-family: Trattatello, fantasy;
+	font-size: 20px; 
+	font:center;
+	text-align: center;
+	
+
+}
+
+h5{
+	font-family: Trattatello, fantasy;
+	font-size: 20px; 
+	font:center;
+	text-align: center;
+
+}
+.card p button{
+	
+}
+#corpo{
+	padding-left: auto;
+
+}
+#rodape{
+	background-color:deepskyblue;
+	padding: 0px;
+	margin: 0px;
+	bottom: 0;
+	position: relative;
+	clear:both;
+}
+
+#rodape ul{
+	padding: 2px; /*pading é usado para preenchimento*/ 
+	margin: 2px; /* margin é usado altura da margem ex o cabecalho mais pro meio da tela */
+	text-align: center; /* text align significa alinhar texto */
+
+}
+#rodape ul li{
+	display: inline; /* display sig exibir inline embutido*/
+
+
+}
+#rodape ul li a{
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	background-color:deepskyblue;
+	border-bottom: none;
+	text-decoration: none;
+	color: white;
+}
+#rodape ul li a:hover{
+	background-color:deepskyblue;
+	color: gray;
+	border-bottom:2px solid gray; 
+	 /* border bottom faz a barrinha embaixo ex olhar o cabecalho */
+	}
